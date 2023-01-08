@@ -10,6 +10,7 @@
 	log5 = log --format=\"%C(auto)%h %C(blue bold)%G?%C(auto)%d %s\" -n 5
 	repull = pull --rebase
 	selfupdate = !git fetch --prune && git pull
+	bvv = branch -vv
 [custom]
 	defaultbranch = main
 [rebase]
