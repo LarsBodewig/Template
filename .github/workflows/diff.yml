@@ -11,3 +11,4 @@ permissions:
 jobs:
   diff:
     runs-on: ubuntu-latest
+    steps: []
