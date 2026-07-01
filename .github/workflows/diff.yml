@@ -1,14 +1,15 @@
-name: Diff builds on Pull Requests
+#name: Diff builds on Pull Requests
 
-on:
-  pull_request:
-    branches:
-    - main
+#on:
+#  pull_request:
+#    branches:
+#    - main
 
-permissions:
-  contents: read
+#permissions:
+#  contents: read
 
-jobs:
-  diff:
-    runs-on: ubuntu-latest
-    steps: []
+#jobs:
+#  diff:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - 
