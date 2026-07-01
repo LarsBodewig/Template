@@ -1,0 +1,21 @@
+# Generic temporary files
+*.bak
+*.back
+*.backup
+
+*.ori
+*.orig
+*.original
+
+*.tmp
+*.temp
+*.temporary
+
+*.cache
+
+*.patch
+*.diff
+
+# Environment variable files
+*.env
+.env.*

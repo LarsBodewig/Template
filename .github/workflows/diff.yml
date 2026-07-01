@@ -1,0 +1,11 @@
+name: Diff builds on Pull Requests
+
+on:
+  pull_request:
+    branches:
+    - main
+
+permissions:
+  contents: read
+
+jobs:
