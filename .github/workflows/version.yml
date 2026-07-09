@@ -1,0 +1,17 @@
+name: Version
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'New version'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  version:
+    runs-on: ubuntu-slim
+    steps:

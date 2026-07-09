@@ -1,14 +1,12 @@
-name: Diff
+name: Publish
 
 on:
-  pull_request:
-    branches:
-    - main
+  workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
-  diff:
+  publish:
     runs-on: ubuntu-slim
     steps:
